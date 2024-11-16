@@ -1,0 +1,90 @@
+#titleTop {
+  text-align: center;
+  padding: 20px;
+}
+
+.main {
+  height: 10vh;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.subbutton {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnSelection {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  width: 100px;
+}
+
+#printSelection {
+  font-size: 100px;
+  text-align: center;
+  height: 20vh;
+  width: 70vw;
+}
+
+.selectionDisp {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#question {
+  font-size: 100px;
+  text-align: center;
+  /* height: 20vh; */
+}
+
+#output {
+  font-size: 25px;
+  text-align: center;
+}
+
+#actual {
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+
+.btnSubmit {
+  margin: 20px;
+  font-size: 20px;
+  width: 100px;
+}
+
+.greenText {
+  color: green;
+}
+
+.redText {
+  color: red;
+}
+
+.correct {
+  color: green;
+  background-color: rgb(0 128 0 / 0.2);
+  border: solid;
+  border-color: green;
+}
+
+.incorrect {
+  color: red;
+  background-color: rgb(255 0 0 / 0.2);
+  border: solid;
+  border-color: red;
+}
